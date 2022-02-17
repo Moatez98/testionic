@@ -1,0 +1,49 @@
+<ion-header  class="ion-no-border">
+  <ion-toolbar>
+    <!-- <ion-title>login</ion-title> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card class="ion-no-margin">
+  <ion-img src="../../assets/logo_svg.svg" ></ion-img>
+  <ion-card-header>
+  <ion-card-title>
+  </ion-card-title>
+  <ion-card-subtitle class="ion-text-lowercase">
+   
+  </ion-card-subtitle>
+
+  </ion-card-header>
+
+  <ion-card-content>
+    <div class="signin-btns">
+    
+      <form #form="ngForm" (ngSubmit)="test(form)">
+        <div class="arrondi">
+      <ion-item  class="ion-text-center">
+        <ion-label  postion="meduin"> Login : </ion-label>
+          <ion-input name="email"  type="login" placeholder="Enter votre Login" ngModel type="text" required></ion-input>
+        </ion-item> 
+        <ion-item  class="ion-text-center">
+            <ion-label   postion="meduin"> Mot de passe :</ion-label>
+              <ion-input  name="password" placeholder="Enter votre mot de passe" ngModel required type="password"></ion-input>
+            </ion-item> 
+          </div>
+<br>
+
+
+        <ion-button type="submit"  size="small" fill="solid" shape="round"  [routerLink]="['/home']" [disabled]="form.invalid" class="loginbtn" >
+         Login
+        </ion-button>
+      </form>
+      </div>
+     
+
+      
+  </ion-card-content>
+
+</ion-card>
+
+</ion-content>

@@ -1,0 +1,77 @@
+ion-content{
+  --background: url(../../assets/hands-with-laptop-virtual-world-map.jpg)  0/100% 100% no-repeat ;
+ --background-size: cover !important;
+  }
+ 
+
+  
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity:0;
+  }
+  
+  ion-card{
+    margin-top: 20%;
+    background-color: transparent !important;
+    padding: 0 !important;
+  }
+  
+  
+  
+  ion-card-title{
+    margin-top: 50px;
+    font-size: 20px;
+    color:#ffffff;
+    text-align:center;
+    font-weight: 600;
+  }
+  
+  ion-card-subtitle{
+    padding-top: 15px;
+    font-size:11px;
+    color:#898585;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  ion-header{
+    position: absolute;
+  }
+  
+  ion-card{
+    border-radius:0px 10px 10px 0px;
+  box-shadow: none !important;
+  }
+  
+  .signin-btns{
+    margin-top: 35px;
+    text-align: center;
+  }
+
+  
+  .loginbtn{
+    --ion-color-primary:#F0931C;
+  }
+  
+  .text-tag{
+    margin-top: 40px;
+    text-align: center;
+    span{
+      font-size: 13px;
+      font-weight: normal;
+      color:#898585;
+    }
+  }
+  
+  .social-btns{
+    
+    margin-top: 30px;
+    text-align: center;
+    ion-button{
+      width:40px;
+      padding-left: 5px !important;
+    }
+    .ion-label{
+      color:#ffffff;
+    }
+  }

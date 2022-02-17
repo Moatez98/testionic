@@ -1,0 +1,7 @@
+{
+  "name": "ArabSoft",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
